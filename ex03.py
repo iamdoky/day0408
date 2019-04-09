@@ -1,7 +1,5 @@
-import numpy as np
 import pandas as pd
-import func
-import matplotlib.pyplot as plt
+from day0408 import func
 
 df = func.getMovies()
 

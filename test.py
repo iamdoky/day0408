@@ -1,8 +1,7 @@
-import func
-import numpy as np
+from day0408 import func
 import pandas as pd
-import matplotlib.pyplot as plt
-df =func.getMovies()
+
+df = func.getMovies()
 
 # 성별 별로 별점의 평균을 알고 싶다.
 # gender_mean = df.pivot_table(values='rating',index='gender')
